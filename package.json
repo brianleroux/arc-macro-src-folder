@@ -1,0 +1,22 @@
+{
+  "name": "arc-macro-src-folder",
+  "version": "1.0.0",
+  "description": "Change the function source folder for deployment in Architect projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing node test/src-test.js | tap-spec"
+  },
+  "keywords": [
+    "serverless",
+    "architect",
+    "macro"
+  ],
+  "author": "Brian LeRoux <b@brian.io>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@architect/package": "^1.0.36",
+    "@architect/parser": "^1.1.7",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  }
+}
